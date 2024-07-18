@@ -8,9 +8,14 @@ body{
 .top{
     width: 100%;
 }
+.top>.row{
+    padding: 0px;
+}
+.right{
+    float: right;
+}
 .left{
     padding-top: 40px;
-    padding-bottom: 10px;
 }
 .right1{
     padding-top:30px ;
@@ -62,9 +67,8 @@ header{
     cursor: pointer;
 }
 @media (max-width:768px) {
-    .right{
+    .row>.right>div{
         display: none;
-        visibility: hidden;
         padding: 0px;
         margin:0px ;
     } 
